@@ -12,7 +12,8 @@
 .searchBar {
     display: flex;
     flex-wrap: wrap;
-    justify-content:start
+    justify-content: flex-start;
+    width: 35%;
 }
 
 .searchBar__input{

@@ -53,9 +53,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.21.4",
     "@types/lodash.debounce": "^4.0.7",
     "@types/react-beautiful-dnd": "^13.1.4",
     "@types/redux-batched-subscribe": "^0.1.4",
-    "@types/redux-logger": "^3.0.9"
+    "@types/redux-logger": "^3.0.9",
+    "ts-jest": "^29.1.0"
   }
 }

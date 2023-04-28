@@ -1,6 +1,4 @@
-
 import thunk from 'redux-thunk';
-import logger from 'redux-logger'
 import { configureStore } from '@reduxjs/toolkit'
 import { batchedSubscribe } from 'redux-batched-subscribe'
 import debounce from 'lodash.debounce';

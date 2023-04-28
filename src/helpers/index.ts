@@ -1,5 +1,5 @@
 const pickTitle = ['ToDo', 'In Progress', ' Done']
-const statusIssue = ['created_at', 'updated_at', 'closed_at']
+const statusIssue: ['created_at', 'updated_at', 'closed_at'] = ['created_at', 'updated_at', 'closed_at']
 
 const intervals = [
     { label: 'year', seconds: 31536000 },

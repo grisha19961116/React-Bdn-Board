@@ -1,4 +1,17 @@
-export type TIssues = any[][]
+export type Tissue = {
+    id: number,
+    number: number,
+    title: string,
+    comments: number,
+    created_at: string,
+    updated_at: string,
+    closed_at: string,
+    user: {
+        login: string,
+        avatar_url: string,
+    },
+}
+export type TIssues = Tissue[][]
 
 export interface IIssuesState {
     issues: TIssues,
